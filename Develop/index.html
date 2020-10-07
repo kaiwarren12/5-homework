@@ -22,54 +22,93 @@
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
-    <!-- Timeblocks go here -->
-    <!-- Add another <td> for the lock button - fontawesome -->
-    <table id="plannerTable">
-      <tr>
-        <th>09:00 am</th>
-        <td colspan="4" class="stage-earth">
-          <textarea></textarea>
-        </td>
-        <td colspan="4" class="saveBtn">  save </td>
-      </tr>
-      <tr>
-        <th>10:00 am</th>
-        <td colspan="4" class="stage-mercury">Speaker Two <span>Earth Stage</span></td>
-      </tr>
-      <tr>
-        <th>11:00 am</th>
-        <td colspan="4" class="stage-venus">Speaker Three <span>Earth Stage</span></td>
-      </tr>
-      <tr>
-        <th>12:00 am</th>
-        <td colspan="4" class="stage-jupiter">Speaker Four <span>Earth Stage</span></td>
-      </tr>
-      <tr>
-        <th>1:00 pm</th>
-        <td colspan="4" class="stage-earth">Speaker One <span>Earth Stage</span></td>
-      </tr>
-      <tr>
-        <th>2:00 pm</th>
-        <td colspan="4" class="stage-mercury">Speaker Two <span>Earth Stage</span></td>
-      </tr>
-      <tr>
-        <th>3:00 pm</th>
-        <td colspan="4" class="stage-venus">Speaker Three <span>Earth Stage</span></td>
-      </tr>
-      <tr>
-        <th>4:00 pm</th>
-        <td colspan="4" class="stage-jupiter">Speaker Four <span>Earth Stage</span></td>
-      </tr>
-      <tr>
-        <th>5:00 pm</th>
-        <td colspan="4" class="stage-earth">Speaker Four <span>Earth Stage</span></td>
-      </tr>
-    </table>
-
-  </div>
-  <script src="script.js"></script>
-
-
+    <!-- 9AM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="9">
+      <div class="input-group-prepend">
+        <!-- Added time-block class -->
+        <span class="input-group-text time-block block1"></span>
+      </div>
+      <input type="text" class="form-control form9" aria-label="Large">
+      <!-- <input class="btn saveBtn" type="submit" value="Save"> -->
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 10AM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="10">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block2"></span>
+      </div>
+      <input type="text" class="form-control form10" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 11AM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="11">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block3"></span>
+      </div>
+      <input type="text" class="form-control form11" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 12PM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="12">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block4"></span>
+      </div>
+      <input type="text" class="form-control form12" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 1PM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="1">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block5"></span>
+      </div>
+      <input type="text" class="form-control form1" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 2PM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="2">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block6"></span>
+      </div>
+      <input type="text" class="form-control form2" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 3PM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="3">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block7"></span>
+      </div>
+      <input type="text" class="form-control form3" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 4PM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="4">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block8"></span>
+      </div>
+      <input type="text" class="form-control form4" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <!-- 5PM Timeblocks go here -->
+    <div class="input-group input-group-lg" data-hour="5">
+      <div class="input-group-prepend">
+        <span class="input-group-text time-block block9"></span>
+      </div>
+      <input type="text" class="form-control form5" aria-label="Large">
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      <!-- Use Favacon for save icon-->
+    </div>
+    <script 
+    src="script.js" type="text/JavaScript" src=" https://MomentJS.com/downloads/moment.js">
+    </script>
+  
 </body>
 
 </html>
